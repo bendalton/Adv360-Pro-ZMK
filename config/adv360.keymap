@@ -82,10 +82,10 @@
 &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp LA(LSHFT)
 // Row 2 Right - 7
 &kp LA(LSHFT) &kp Y &kp U &kp I &kp O &kp P &kp BSLH
-// Row 3 Left - 10
-&kp ESC &kp A &kp S &kp D &kp F &kp G &kp LC(LA(LSHFT)) &kp LA(LSHFT) &kp LCTRL &kp LALT 
-// Row 3 Right - 10
-&kp LGUI &kp RCTRL &none &kp LC(LA(LSHFT)) &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
+// Row 3 Left - 9
+&kp ESC &kp A &kp S &kp D &kp F &kp G &kp LC(LA(LSHFT)) &kp LA(LSHFT) &kp LCTRL  
+// Row 3 Right - 9
+&kp LGUI &kp RCTRL  &kp LC(LA(LSHFT)) &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
 // Row 4 Left - 10
 &kp LSHFT &lt CONTROL Z &hm LCTRL X &hm LALT C &hm LGUI V &kp B &none &none &kp HOME &none
 // Row 4 Right - 10
@@ -107,10 +107,10 @@
 &trans &trans &trans &trans &trans &trans &trans
 // Row 2 Right - 7
 &trans &trans &trans &trans &trans &trans &trans
-// Row 3 Left - 10
-&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-// Row 3 Right - 10
-&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 3 Left - 9
+&trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 3 Right - 9
+&trans &trans &trans &trans &trans &trans &trans &trans &trans
 // Row 4 Left - 10
 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 // Row 4 Right - 10
@@ -132,10 +132,10 @@
 &none &none &none &none &none &none &kp C_VOL_UP
 // Row 2 Right - 7
 &kp LG(LS(N5)) &none &none &none &none &none &none
-// Row 3 Left - 10
-&none &none &none &none &none &none &kp C_VOL_DN &kp LA(LSHFT) &kp LC(LA(LSHFT)) &none
-// Row 3 Right - 10
-&kp N1 &kp N2 &kp N3 &kp N4 &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+// Row 3 Left - 9
+&none &none &none &none &none &none &kp C_VOL_DN &kp LA(LSHFT) &kp LC(LA(LSHFT))
+// Row 3 Right - 9
+&kp N1 &kp N2 &kp N3 &kp N4 &kp LEFT &kp DOWN &kp UP &kp RIGHT &none 
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
@@ -158,10 +158,10 @@
 &none &none &none &none &none &none &none
 // Row 2 Right - 7
 &none &none &none &none &none &none &none
-// Row 3 Left - 10
-&kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none &none &none &none
-// Row 3 Right - 10
-&none &none &none &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
+// Row 3 Left - 9
+&kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none &none &none 
+// Row 3 Right - 9
+&none &none &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
@@ -183,10 +183,10 @@
 &none &none &none &none &none &none &none
 // Row 2 Right - 7
 &none  &kp GRAVE &kp EQUAL &kp LBRC &kp RBRC &kp PIPE &kp BSLH
-// Row 3 Left - 10
-&none &none &none &none &none &none &none &none &none &none
-// Row 3 Right - 10
-&none &none &none &none &kp LBKT &kp RBKT &kp LPAR &kp RPAR &kp MINUS &none
+// Row 3 Left - 9
+&none &none &none &none &none &none &none &none &none
+// Row 3 Right - 9
+&none &none &none &kp LBKT &kp RBKT &kp LPAR &kp RPAR &kp MINUS 
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
@@ -209,10 +209,10 @@
 &none &none &tog WINDOWS &none &none &bootloader &bootloader
 // Row 2 Right - 7
 &bootloader &bootloader &none &none &none &none &none
-// Row 3 Left - 10
-&none &none &none &none &none &none &bt BT_CLR &none &none &none
-// Row 3 Right - 10
-&none &none &none &bt BT_CLR &none &none &none &none &none &none
+// Row 3 Left - 9
+&none &none &none &none &none &none &bt BT_CLR &none &none
+// Row 3 Right - 9
+&none &none &bt BT_CLR &none &none &none &none &none &none
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
