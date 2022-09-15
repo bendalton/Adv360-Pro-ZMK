@@ -5,6 +5,13 @@
  * SPDX-License-Identifier: MIT
  */
 
+
+/* THIS FILE WAS GENERATED!
+ *
+ * This file was generated automatically. You may or may not want to
+ * edit it directly.
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -128,7 +135,7 @@
 // Row 3 Left - 9
 &none &none &none &none &none &none &kp C_VOL_DN &kp LA(LSHFT) &kp LC(LA(LSHFT))
 // Row 3 Right - 9
-&kp N1 &kp N2 &kp N3 &kp N4 &kp LEFT &kp DOWN &kp UP &kp RIGHT &none 
+&none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
@@ -183,7 +190,7 @@
 // Row 4 Left - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
-&none &none &none &none &none &none &kp LT &kp GT &kp FSLH  &none
+&none &none &none &none &kp LS(EQUAL) &kp EQUAL &kp LT &kp GT &kp FSLH  &none
 // Row 5 Left - 8
 &none &none &none &none &none &none &none &none
 // Row 5 Right - 8
