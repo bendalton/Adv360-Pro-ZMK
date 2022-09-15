@@ -218,7 +218,7 @@
 // Row 4 Right - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 5 Left - 8
-&none &none &none &none &none &none &none &none
+&none &none &none &bl BL_INC  &bl BL_DEC &none &none &none
 // Row 5 Right - 8
 &none &none &none &none &none &none &none &none
             >;
