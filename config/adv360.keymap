@@ -92,9 +92,9 @@
 // Row 4 Right - 10
 &none &kp PG_UP &none &none &kp N &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &kp FSLH &kp RSHFT
 // Row 5 Left - 8
-&mo NUMBERS &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &mo NUMBERS
+&mo CONTROL &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &mo NUMBERS
 // Row 5 Right - 8
-&mo SYMBOL &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo NUMBERS
+&mo SYMBOL &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo CONTROL
             >;
         };
 
@@ -138,7 +138,7 @@
 // Row 3 Right - 9
 &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
 // Row 4 Left - 10
-&none &none &none &none &none &none &none &none &none &none
+&kp C_AL_SCREENSAVER &none &none &none &none &none &none &none &none &none
 // Row 4 Right - 10
 &none &none &none &none &kp LG(LBRC) &kp LA(LS(DOWN)) &kp LA(LS(UP)) &kp LG(RBRC) &none &none
 // Row 5 Left - 8
@@ -219,9 +219,9 @@
 // Row 4 Right - 10
 &none &none &none &none &none &none &none &none &none &none
 // Row 5 Left - 8
-&none &none &none &bl BL_INC  &bl BL_DEC &none &none &none
+&bootloader &none &none &bl BL_INC  &bl BL_DEC &none &none &none
 // Row 5 Right - 8
-&none &none &none &none &none &none &none &none
+&none &none &none &none &none &none &none &bootloader
             >;
         };
 
