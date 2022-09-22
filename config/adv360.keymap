@@ -142,7 +142,7 @@
 // Row 4 Right - 10
 &none &none &none &none &kp LG(LBRC) &kp LA(LS(DOWN)) &kp LA(LS(UP)) &kp LG(RBRC) &none &none
 // Row 5 Left - 8
-&none &none &none &none &none &none &none &none
+&none &none &none &none &none &hm LSHFT DEL &none &none
 // Row 5 Right - 8
 &none &none &none &kp LC(UP) &kp LC(LEFT) &kp LC(RIGHT) &none &none
             >;
