@@ -84,7 +84,7 @@
 // Row 2 Right - 7
 &kp LA(LSHFT) &kp Y &kp U &kp I &kp O &kp P &kp BSLH
 // Row 3 Left - 9
-&kp ESC &kp A &kp S &kp D &kp F &kp G &kp LC(LA(LSHFT)) &kp LA(LSHFT) &kp LCTRL  
+&kp ESC &kp A &kp S &kp D &kp F &kp G &kp LCTRL &kp LC(LA(LSHFT)) &kp LA(LSHFT)   
 // Row 3 Right - 9
 &kp LGUI &kp RCTRL  &kp LC(LA(LSHFT)) &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
 // Row 4 Left - 10
