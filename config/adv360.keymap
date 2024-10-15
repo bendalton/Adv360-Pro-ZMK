@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -45,11 +44,11 @@
             key-positions = <43 44>;
             bindings = <&kp SQT>;
         };
-		// combo_cmdenter {
-        //     timeout-ms = <80>;
-        //     key-positions = <49 54>;
-        //     bindings = <&kp LG(RET)>;
-        // };
+		combo_cmdenter {
+            timeout-ms = <80>;
+            key-positions = <49 54>;
+            bindings = <&kp LG(RET)>;
+        };
     };
 };
 
@@ -60,8 +59,17 @@
 					compatible = "zmk,behavior-hold-tap";
 					label = "HOMEROW_MODS";
 					#binding-cells = <2>;
-					tapping-term-ms = <250>;
-					quick_tap_ms = <150>;
+					tapping-term-ms = <200>;
+					quick_tap_ms = <100>;
+					flavor = "tap-preferred";
+					bindings = <&kp>, <&kp>;
+			};
+			tm: thumb_mods {
+					compatible = "zmk,behavior-hold-tap";
+					label = "THUMB_MODS";
+					#binding-cells = <2>;
+					tapping-term-ms = <150>;
+					quick_tap_ms = <75>;
 					flavor = "tap-preferred";
 					bindings = <&kp>, <&kp>;
 			};
@@ -100,9 +108,9 @@
 // Row 4 Right - 7
 &kp PG_UP &kp N &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &kp FSLH &kp RSHFT
 // Row 5 Left - 8
-&mo CONTROL &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &mo NUMBERS
+&mo CONTROL &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &tm LSHFT DEL &tm LGUI RET &mo NUMBERS
 // Row 5 Right - 8
-&mo SYMBOL &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo CONTROL
+&mo SYMBOL &lt NAV SPACE &tm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo CONTROL
             >;
         };
 
@@ -150,7 +158,7 @@
 // Row 4 Right - 7
 &none &kp LG(LBRC) &kp LA(LS(DOWN)) &kp LA(LS(UP)) &kp LG(RBRC) &none &none
 // Row 5 Left - 8
-&none &none &none &none &none &hm LSHFT DEL &none &none
+&none &none &none &none &none &tm LSHFT DEL &none &none
 // Row 5 Right - 8
 &none &none &none &kp LC(UP) &kp LC(LEFT) &kp LC(RIGHT) &none &none
             >;
